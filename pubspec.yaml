@@ -31,6 +31,18 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_zoom_sdk: ^1.0.0
+  agora_rtc_engine: ^6.1.0
+  permission_handler: ^10.2.0
+  meet_hour: '>=5.0.17'
+  syncfusion_flutter_datepicker: ^20.4.54
+  flutter_datetime_picker: ^1.5.1
+  dropdown_search: ^5.0.6
+  shared_preferences: ^2.0.18
+  flutter_native_timezone:
+    git:
+      url: https://github.com/iamzeeshanali/flutter_native_timezone.git
+      ref: 59e26fcee72a24f3770c0719f111950eb4f885f7 # commit hash
+
 
 
 

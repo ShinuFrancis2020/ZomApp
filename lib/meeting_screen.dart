@@ -19,8 +19,8 @@ class _MeetingWidgetState extends State<MeetingWidget> {
   late Timer timer;
   @override
   void initState() {
-    meetingIdController.text = "88007769196";
-    meetingPasswordController.text = "LnZzA8";
+    meetingIdController.text = "836 2450 3250";
+    meetingPasswordController.text = "fRe2TJ";
     super.initState();
   }
 
@@ -136,9 +136,9 @@ class _MeetingWidgetState extends State<MeetingWidget> {
         meetingPasswordController.text.isNotEmpty) {
       ZoomOptions zoomOptions = ZoomOptions(
         domain: "zoom.us",
-        appKey: "R2OC_qhESa6PD6JGXxCAFQ", //API KEY FROM ZOOM
+        appKey: "JQsqZkcNSUa68mSMeJhmoA", //API KEY FROM ZOOM
         appSecret:
-            "7FL8HZgNFkug0Mz0JQjAw9NOwddm5jVLHL6w", //API SECRET FROM ZOOM
+            "lW93E9cH9LyNiahatG8L6SF4zyH4SMM8", //API SECRET FROM ZOOM
       );
       var meetingOptions = ZoomMeetingOptions(
           userId: 'Shinu Francis',
@@ -225,10 +225,9 @@ class _MeetingWidgetState extends State<MeetingWidget> {
 
     ZoomOptions zoomOptions = ZoomOptions(
       domain: "zoom.us",
-      appKey:
-          "R2OC_qhESa6PD6JGXxCAFQ", //API KEY FROM ZOOM -- SDK KEY
+      appKey: "JQsqZkcNSUa68mSMeJhmoA", //API KEY FROM ZOOM -- SDK KEY
       appSecret:
-          "7FL8HZgNFkug0Mz0JQjAw9NOwddm5jVLHL6w", //API SECRET FROM ZOOM -- SDK SECRET
+          "lW93E9cH9LyNiahatG8L6SF4zyH4SMM8", //API SECRET FROM ZOOM -- SDK SECRET
     );
     var meetingOptions = ZoomMeetingOptions(
         userId: 'shinufrancis6355@gmail.com', //pass host email for zoom
@@ -321,10 +320,9 @@ class _MeetingWidgetState extends State<MeetingWidget> {
 
     ZoomOptions zoomOptions = ZoomOptions(
       domain: "zoom.us",
-      appKey:
-          "R2OC_qhESa6PD6JGXxCAFQ", //API KEY FROM ZOOM -- SDK KEY
+      appKey: "JQsqZkcNSUa68mSMeJhmoA", //API KEY FROM ZOOM -- SDK KEY
       appSecret:
-          "7FL8HZgNFkug0Mz0JQjAw9NOwddm5jVLHL6w", //API SECRET FROM ZOOM -- SDK SECRET
+          "lW93E9cH9LyNiahatG8L6SF4zyH4SMM8", //API SECRET FROM ZOOM -- SDK SECRET
     );
     var meetingOptions = ZoomMeetingOptions(
         userId: 'Shinu Francis', //pass host email for zoom
